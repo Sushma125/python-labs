@@ -1,0 +1,11 @@
+kg=float(input('enter the kilogram value to to change its pounds'))
+p=2.2*kg
+print("{} kg is equal to(:0.2f)pounds".format(kg,p))
+
+
+output:
+
+enter the kilogram value to to change its pounds5
+5.0 kg is equal to(:0.2f)pounds
+
+Process finished.
