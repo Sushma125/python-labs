@@ -1,0 +1,16 @@
+import random
+n=random.randint(1,11)
+v=int(input("enter a number: "))
+print('random number : n',n)
+if(n==v):
+  print("your guessed number is right")
+else:
+    print("the guessed number is wrong")
+
+
+output::
+enter a number: 5
+random number : n 7
+the guessed number is wrong
+
+Process finished.
