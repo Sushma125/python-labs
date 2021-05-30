@@ -1,0 +1,13 @@
+n1=float(input("enter first number"))
+n2=float(input("enter second number"))
+if n1-n2>0 and n1-n2<=0.001:
+    print('close')
+elif n2-n1>0 and n2-n1<=0.001:
+    print('close')
+else:
+    print("Not close")
+
+output::
+enter first number0.0001
+enter second number0.000001
+close
