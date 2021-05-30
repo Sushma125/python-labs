@@ -1,0 +1,9 @@
+name=input('enter a name:')
+n=int(input('enter the number'))
+count=name*n
+print('Count:',count)
+
+out put:
+enter a name sushma
+enter the number4
+sushmasushmasushmasushma
